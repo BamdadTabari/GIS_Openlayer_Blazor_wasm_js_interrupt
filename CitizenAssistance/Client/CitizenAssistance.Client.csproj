@@ -15,8 +15,4 @@
     <ProjectReference Include="..\Shared\CitizenAssistance.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\css\packages\" />
-  </ItemGroup>
-
 </Project>
