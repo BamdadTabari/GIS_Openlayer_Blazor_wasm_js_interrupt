@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+@*<div id="map" style="width:500px; height:700px; z-index:10000;"></div>*@
+@*
+@code{
+
+    [Inject]
+    public IJSRuntime _JSRuntime { get; set; }
+    protected override async Task OnParametersSetAsync()
+    {
+        await _JSRuntime.InvokeVoidAsync("call_map");
+    }
+}*@
