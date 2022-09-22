@@ -12,19 +12,25 @@
     <title>CitizenAssistance</title>
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/openlayers/ol.css" type="text/css" rel="stylesheet" />
+    <link href="lib/openl   ayers/ol-layerswitcher.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="CitizenAssistance.Client.styles.css" rel="stylesheet" />
+
 </head>
 
-    <body>
+<body>
     <component type="typeof(App)" render-mode="WebAssemblyPrerendered" />
 
-        <div id="blazor-error-ui">
-            An unhandled error has occurred.
-            <a href="" class="reload">Reload</a>
-            <a class="dismiss">🗙</a>
-        </div>
-        <script src="_framework/blazor.webassembly.js"></script>
-    </body>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="lib/openlayers/ol.js"></script>
+    <script src="lib/openlayers/ol-layerswitcher.js"></script>
+    <script src="js/map.js"></script>
+</body>
 
 </html>
